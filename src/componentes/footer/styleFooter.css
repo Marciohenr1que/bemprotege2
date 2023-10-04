@@ -1,0 +1,63 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.h1-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+.paragrago {
+    color: #978D8D;
+    width: 100%;
+    margin-left: 0;
+}
+
+.paragrago2 {
+    color: #978D8D;
+    width: 100%;
+    text-align: right;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .h1-container {
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    .paragrago,
+    .paragrago2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .text-container {
+        align-items: center;
+
+        margin-top: 10px;
+    }
+}
