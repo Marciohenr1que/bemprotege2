@@ -1,37 +1,60 @@
-
-.teste {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
 }
+   .logotipo {
+       max-width: 70%;
+       max-height: 70%;
+   }
+a{
+    text-decoration: none;
+    color: black;
+}
+
 
 .menu {
     display: flex;
-    gap: 10px;
-    margin-right: 100px;
+    align-items: center;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+.menu-toggle {
+    display: none;
 }
 
-.icons {
-    display: flex;
-    gap: 10px;
-    margin-left: 50px;
+.menu.show {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
 }
 
-/* Estilos para telas menores, como celulares */
+.menu.show a {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+
 @media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+       
+    }
+ 
+
     .menu {
-        margin-right: 20px;
-        /* Reduzir a margem direita para telas menores */
+        display: none;
+    
     }
 
-    .icons {
-        margin-left: 20px;
-        /* Reduzir a margem esquerda para telas menores */
+    .header.show-nav .menu {
+        display: flex;
+       
     }
 }
