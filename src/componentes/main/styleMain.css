@@ -12,19 +12,22 @@
 h2 {
     color: #00E6FF;
     margin-left: 5%;
-    /* Use margem relativa para ser responsivo */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    
 }
 
 h6 {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 300;
     white-space: pre-line;
     max-width: 600px;
     text-align: justify;
     margin-left: 5%;
     font-size: 20px;
     margin-top: 20px;
+    font-family: sans-serif;
     
     
 }
@@ -36,10 +39,10 @@ button{
     margin-left: 5%;
     background-color: #61CE70;
     color: white;
+    font-family: sans-serif;
     border: none;
     border-radius: 10px;
     padding: 10px 30px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     box-shadow: 0px 4px 10px rgba(255, 253, 253, 0.651);
     cursor: pointer;
@@ -58,6 +61,8 @@ button{
 h1 {
     color: #00E6FF;
     margin-left: 5%;
+    font-family: sans-serif;
+    font-weight: 300;
    
 }
 
@@ -81,17 +86,22 @@ h1 {
 h3 {
     margin: 0;
     color: white;
+    font-family: sans-serif;
+    font-weight: 300;
 }
 
 p {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+    font-weight: 300;
     font-size: 13px;
 }
 
 .text-white {
     color: white;
     font-weight: bold;
+    font-family: sans-serif;
+    
 }
 
 .mulherpensando {

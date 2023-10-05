@@ -10,6 +10,7 @@ function Header() {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768)
 
     const toggleNav = () => {
+        setIsMobile(window.innerWidth <= 768)
         setShowNav(!showNav)
     }
     useEffect(() => {
@@ -23,7 +24,7 @@ function Header() {
     return () => {
       window.removeEventListener('resize', handleResize)
     }
-  }, [])
+  }, [isMobile])
     
   return (
    <div className="header">
