@@ -10,7 +10,7 @@ function Main() {
                 <div className="content">
                     <h2>ESSENCIAL É ESTAR SEGURO</h2>
                     <h6>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu nulla urna. Aenean laoreet sapien
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam eu nulla urna.Aenean laoreet sapien
                         vitae libero dapibus, eget condimentum ante accumsan. Morbi tincidunt mauris et egestas molestie.
                     </h6>
                     <button>CONHEÇA AS SOLUÇÕES</button>
@@ -19,7 +19,7 @@ function Main() {
             </div>
             <div className="custom-line"></div>
             <div className="content2">
-                <img src="/mulherpensando.png" alt="" />
+                <img className="mulherpensando" src="/mulherpensando.png" alt="" />
                 <div>
                     <h1>Sua proteção em primeiro lugar sempre</h1>
                     <div className="container">

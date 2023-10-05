@@ -4,6 +4,17 @@
     align-items: center;
     padding: 10px 20px;
 }
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.menu-toggle{
+    display: none;
+}
+
+.menu-toggle.hidden {
+    display: block;
+}
    .logotipo {
        max-width: 70%;
        max-height: 70%;
@@ -11,19 +22,18 @@
 a{
     text-decoration: none;
     color: black;
+    
 }
-
 
 .menu {
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
-.menu-toggle {
-    display: none;
-}
 
 .menu.show {
+    display: flex;
     flex-direction: column;
     position: absolute;
     top: 60px;
@@ -46,6 +56,10 @@ a{
         cursor: pointer;
        
     }
+        .menu-toggle svg {
+            font-size: 24px;
+            color: #000;
+        }
  
 
     .menu {
